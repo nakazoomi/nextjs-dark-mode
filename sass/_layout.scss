@@ -1,0 +1,46 @@
+/**************************************************************************/
+/* GENERAL CSS STYLES */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/**************************************************************************/
+// NEXT THEMES 
+
+:root {
+  /* Your default theme */
+  --background: white;
+  --foreground: black;
+}
+
+[data-theme='dark'] {
+  --background: black;
+  --foreground: white;
+}
+
+[data-theme='light'] {
+  --background: white;
+  --foreground: black;
+}
+
+
+
+h1 {
+  color: var(--background);
+}
+
+
+// html,
+// body {
+//   color: #000;
+//   background: #fff;
+// }
+
+// [data-theme='dark'],
+// [data-theme='dark'] body {
+//   color: #fff;
+//   background: #000;
+// }
